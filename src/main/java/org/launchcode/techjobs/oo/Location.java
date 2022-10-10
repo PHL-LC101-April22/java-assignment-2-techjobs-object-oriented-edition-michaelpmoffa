@@ -43,6 +43,10 @@ public class Location {
         return id;
     }
 
+    public Location(String value) {
+        super(value);
+    }
+
     public String getValue() {
         return value;
     }
